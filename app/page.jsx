@@ -1,4 +1,4 @@
-import CarCard from "@/components/car-card";
+
 import HomeSearch from "@/components/home-search";
 import { Button } from "@/components/ui/button";
 import { bodyTypes, carMakes, faqItems, featuredCars } from "@/lib/data";
@@ -12,6 +12,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { SignedOut } from "@clerk/nextjs";
+import CarCard from "@/components/car-card";
 export default function Home() {
   return (
     <div className="pt-20 flex flex-col">
